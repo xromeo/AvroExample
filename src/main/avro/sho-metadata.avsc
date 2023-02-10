@@ -18,7 +18,10 @@
       "name": "source",
       "type": "string"
     },
-
+    {
+      "name": "Retail_SOHSKU",
+      "type": "string"
+    },
     {
       "name": "Retail_Product_ImageURL",
       "type": "string"
@@ -31,10 +34,6 @@
       "name": "Retail_SOHQTY_SR",
       "type": "int"
     },
-    {
-          "name": "Retail_SOHSKU",
-          "type": "string"
-        },
     {
       "name": "Retail_SOHDepositCode",
       "type": "string"
@@ -120,7 +119,75 @@
       "type": "boolean"
     },
     {
-      "name": "Retail_Product_Style",
+      "name": "Retail_Product_Color",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SKU",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHPrice",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Size",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHDepositName",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_VPN",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHReceiptID",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level5Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_ExternalSKU",
+      "type": "string"
+    },
+    {
+      "name": "Retail_SOHCurrency",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_SKU",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_UPC",
+      "type": "string"
+    },
+    {
+      "name": "Retail_StoreNumber",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level4Name",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_UOM",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Dimension",
+      "type": "string"
+    },
+    {
+      "name": "Retail_Product_Level3Name",
       "type": "string"
     },
     {
@@ -132,7 +199,7 @@
       "type": "string"
     },
     {
-      "name": "Retail_Product_Level3Name",
+      "name": "Retail_Product_Style",
       "type": "string"
     },
     {
@@ -148,63 +215,23 @@
       "type": "int"
     },
     {
-      "name": "Retail_Product_Dimension",
-      "type": "string"
-    },
-    {
       "name": "Retail_SOHInTransitQTY",
       "type": "int"
-    },
-    {
-      "name": "tsEdgeIn",
-      "type": "long"
-    },
-    {
-      "name": "Retail_Product_UOM",
-      "type": "string"
-    },
-    {
-      "name": "Retail_Product_Level4Name",
-      "type": "string"
-    },
-    {
-      "name": "Retail_StoreNumber",
-      "type": "string"
-    },
-    {
-      "name": "Retail_Product_UPC",
-      "type": "string"
     },
     {
       "name": "Retail_SFMax",
       "type": "int"
     },
     {
-      "name": "Retail_Product_SKU",
-      "type": "string"
-    },
-    {
-      "name": "Retail_SOHCurrency",
-      "type": "string"
-    },
-    {
-      "name": "Retail_Product_ExternalSKU",
-      "type": "string"
-    },
-    {
-      "name": "Retail_Product_Level5Name",
-      "type": "string"
-    },
-    {
-      "name": "Retail_SOHReceiptID",
-      "type": "string"
-    },
-    {
-      "name": "Retail_Product_VPN",
-      "type": "string"
-    },
-    {
       "name": "Retail_SOHStoreInProcess",
+      "type": "int"
+    },
+    {
+      "name": "Retail_SOHQTY",
+      "type": "int"
+    },
+    {
+      "name": "Retail_QTY",
       "type": "int"
     },
     {
@@ -212,36 +239,8 @@
       "type": "long"
     },
     {
-      "name": "Retail_SOHQTY",
-      "type": "int"
-    },
-    {
-      "name": "Retail_SOHDepositName",
-      "type": "string"
-    },
-    {
-      "name": "Retail_Product_Size",
-      "type": "string"
-    },
-    {
-      "name": "Retail_QTY",
-      "type": "int"
-    },
-    {
-      "name": "Retail_SOHPrice",
-      "type": "string"
-    },
-    {
-      "name": "Retail_Product_Name",
-      "type": "string"
-    },
-    {
-      "name": "Retail_SKU",
-      "type": "string"
-    },
-    {
-      "name": "Retail_Product_Color",
-      "type": "string"
+      "name": "tsEdgeIn",
+      "type": "long"
     }
   ]
 }
